@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font from google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Property Partner</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <a href="#">
+            <img class="navigation-logo" src="img/Property+Partner+Gradient+Horizontal.png" alt="PP image">
+        </a>
+        <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navlinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
+
+        <nav class="navigation-center">
+            <ul>
+                <li>
+                    <a href="" class="navigation-link">What we do <i class="fa fa-angle-down"
+                            aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="" class="navigation-link">Solutions <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="" class="navigation-link">Why choose us</a>
+                </li>
+                <li>
+                    <a href="" class="navigation-link">Resources <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="" class="navigation-link">Company <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="navigation-right">
+            <a href="#" class="login">Log in <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            <a href="#" class="button" id="nav-button">Get Started</a>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="item-1">
+            <h1>Let's simplify your growth,<br>together</h1>
+            <p>
+                Make operational challenges a thing of the past. Join forces with our team of property professionals,
+                here
+                to streamline your service and give you predictable cash flow while you retain control of your rent
+                roll.
+            </p>
+            <button class="button">Book a demo</button>
+        </div>
+        <div class="item-2">
+            <img class="profile-img" src="img/profile.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="container-2">
+        <h2 class="highlight">Introducing Property Partner for Agencies.</h2>
+        <h2>We know that launching, managing and growing a profitable rent roll is hard. It’s why we built the first
+            all-in-one solution for agencies that makes scaling a property management business, simple.</h2>
+    </div>
+
+    <div class="container-3">
+        <div class="focus">
+            <h3>Focus on what you love</h3>
+            <p>Spend more time selling properties and less time navigating the complexities of a rent roll. We help you
+                grow a profitable asset that doesn’t distract you from what you do best, giving you time to focus on
+                driving sales instead.</p>
+        </div>
+        <div>
+            <img class="phone-img" src="img/phone.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="container-3">
+        <div>
+            <img class="house-img " src="img/house.jpg" alt="">
+        </div>
+        <div class="operate">
+            <h3>Operate efficiently</h3>
+            <p>You know that margins are tight in property management. We can help you deliver sustainable revenue
+                growth, gain predictable cash flow, and build a profitable rent roll (without the hefty upfront costs).
+            </p>
+        </div>
+    </div>
+
+    <div class="container-3">
+        <div class="focus">
+            <h3>Grow your rent roll</h3>
+            <p>No two days are the same in property management, but we’re used to handling curveballs. Together, we’ll
+                level up your customer experience, differentiate your agency from your competitors, and help you
+                efficiently capture and convert high-quality leads.</p>
+        </div>
+        <div>
+            <img class="growth-img" src="img/growth.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>
